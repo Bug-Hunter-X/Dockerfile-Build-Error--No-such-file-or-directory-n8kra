@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Dockerfiles: incorrect file paths in COPY instructions. The original Dockerfile fails to build because it tries to copy files that do not exist in the build context.  The corrected Dockerfile shows how to correctly specify file paths to ensure successful builds.
